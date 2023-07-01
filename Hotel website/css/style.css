@@ -1,0 +1,79 @@
+body{margin:0px;padding:10px}
+.container{
+ max-width:1200px;
+ margin:0 auto;
+}
+.row{display:flex;
+     flex-wrap:wrap;
+}
+.logo-area{
+ width:100px
+ }
+.nav-area ul{
+ margin:0;
+ padding:0
+ }
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+.logo-area{
+width:40%;box-sizing:border-box
+padding:10px 60px;
+background-color:white;box-sizing:border-box;
+}
+header{background: white;
+  padding-top: 10px;
+padding-bottom: 10px;}
+.nav-area ul li{display:inline-block;font-size:20px;margin-right:25px}
+.nav-area ul li a{color:gray;text-decoration:none}
+.nav-area ul li a:hover{color:blue}
+.nav-area{width:60%;box-sizing:border-box;text-align:right;}
+.dark-btn {display:inline-block;font-size:20px;}
+.book-btn {text-decoration:none;background-color:black;padding:10px 20px;color:white}
+.nav-area ul li a.book-btn{color:white}
+.nav-area ul li a:hover.book-btn{background-color:#243443;color:white}
+.nav-area ul {
+  margin: 0;
+  padding: 0;}
+.header{background-color:#243443;padding:100px 0;}
+.header-content{width:100%;box-sizing:border-box;position:absolute;top:100px;left: 0}
+.header-content h1{text-align:center;color:white;font-size:60px;}
+.header-content p{color:white;font-size:25px;text-align:center}
+.dark-btn.book-btn.book{text-align:center;margin-left:590px;border:2px solid white;margin-top:15px}
+.dark-btn.book-btn.book:hover{background-color:white;color:black}
+.img-area{padding:30px 60px;margin-top:400px}
+.experiance{padding:30px 180px;}
+.experiance-content h2{color:black;font-size:45px;text-align:center}
+.experiance-content p{color:gray;text-align:center;font-size:22px}
+.unwind{background-color:#243443;margin-top:30px;}
+.unwind-content{width:50%;box-sizing:border-box;margin-top:180px;display:inline-block}
+.unwind-content p{color:white;}
+.unwind-content h2{color:white;font-size:45px;margin:0}
+.rooms-content{color:white;font-size:20px}
+.take-look{font-size:20px;color:white;text-decoration:none;background-color:white;padding:13px 20px;color:black;margin-top:10px;display:inline-block}
+.take-look:hover{background-color:black;color:white}
+.about-img{width:50%;box-sizing:border-box}
+.about-img-recipe{background-color:white;padding:80px}
+.about-img.unwind{padding-left:60px;margin-top:80px;display:inline-block;background-color:white}
+.about-img.unwind p{color:black}
+.about-img.unwind h3{color:black;font-size:45px;margin:0}
+.about-img.unwind p{color:black;font-size:20px}
+.take-look.reserve{background-color:black;color:white}
+.take-look.reserve:hover{background-color:white;color:black}
+.about-img.spa{float:left;position:relative}
+.main-spa{position:relative}
+.about-img.spa{position:absolute;top:100px;left:5%}
+.about-img.spa p{font-size:30px;color:white}
+.about-img.spa h4{font-size:50px;color:white;margin-top:30px}
+.about-img.spa-content{position:absolute;top:0px;left:50%}
+.about-img.spa-content p{color:white;font-size:25px}
+.wedding{background-color:white;padding:60px;}
+.wedding-heading{font-size:30px}
+.wedding-paragraph{color:gray;font-size:20px}
+.about-img.meeting{margin-left:40px;display:inline-block}
+.wedding-button{color:gray;font-size:18px;text-decoration:none;border-bottom:2px solid gray;padding-bottom:8px}
+.footer{width:100%;box-sizing:border-box;background-color:#243443;padding:100px 60px 0;float:left}
+.about-img.logo{padding:0 15px}
+.address{color:white;padding-top:30px}
+.footer-img{margin-top:30px;}
